@@ -126,7 +126,7 @@
   .service-price{font-family:'Archivo',sans-serif;font-weight:900;color:var(--ink);white-space:nowrap;font-size:1.2rem}
   .service-meta{color:var(--grey);font-size:0.88rem;margin-bottom:12px}
   .service-desc{color:var(--ink-soft);font-size:0.96rem}
-  @media (max-width:720px){.service-grid{grid-template-columns:1fr !important}}
+  @media (max-width:720px){.service-grid{grid-template-columns:1fr}}
 
   /* ---------- About ---------- */
   .about-story{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
@@ -297,7 +297,7 @@
           <p class="eyebrow">Why Blackline</p>
           <h2>Every cut starts with a clean line.</h2>
         </div>
-        <div class="service-grid">
+        <div class="service-grid" style="grid-template-columns:repeat(1,3fr)">
           <div class="service-card">
             <h3 style="margin-bottom:8px">Consultation first</h3>
             <p class="service-desc">Every visit opens with a two-minute chat about what you actually want — not what's quickest for us.</p>
